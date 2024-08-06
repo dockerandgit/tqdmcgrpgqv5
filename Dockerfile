@@ -14,4 +14,4 @@ RUN npm install
 COPY . .
 
 # Command to run the application
-CMD ["node", "src/index.js"]
+CMD ["tail", "-f", "/dev/null"]
